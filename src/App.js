@@ -1,14 +1,11 @@
-import './App.css';
+import TopBar from './topbar/TopBar.jsx';
 
+/* eslint-disable react/jsx-no-undef */
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <>
+    <TopBar/>
+    </>
   );
 }
 
