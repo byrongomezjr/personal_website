@@ -13,18 +13,18 @@ export default function TopBar() {
     <div className="topCenter">
 
     <ul className="topList">
-    <li className="topListItem">Home</li>
-    <li className="topListItem">About</li>
-    <li className="topListItem">Contact</li>
-    <li className="topListItem">Log Out</li>
+    <li className="topListItem">HOME</li>
+    <li className="topListItem">BLOG</li>
+    <li className="topListItem">CODING</li>
+    <li className="topListItem">MISCELLANEOUS</li>
     </ul>
 
     </div>
 
     <div className="topRight">
-    <img style={{width:50, height: 50, borderRadius: 50/2}} 
-    src="https://avatars.githubusercontent.com/u/60487113?v=4" alt="" />
-    <i className="topSearchIcon fa-solid fa-user-check"></i>
+    <i className="darkModeIcon fa-solid fa-moon"></i>
+    <li className="topRightLine">|</li>
+    <i className="topRightTwitchIcon fa-brands fa-twitch"></i>
     </div>
 
     </div>

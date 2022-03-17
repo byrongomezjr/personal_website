@@ -1,0 +1,68 @@
+/*Flexibility to work the whole body in Home Page.
+This is where the introduction goes. */
+
+.home{
+    flex-direction: column;
+    display: flexbox;
+    margin: 4rem;
+}
+
+
+/*First paragraph introduction goes here and everything else.
+This is the beginning of Home - BODY PARAGRAPH*/
+.intro{
+    display: flexbox;
+}
+
+.introTitle{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+.introParagraph{
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+/*Personal Goals Title and its contents.*/
+.personalGoalsTitle{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+.personalContact{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+/*E Mail Section*/
+
+.eMailIcon{
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(49, 49, 49);
+    margin: 1rem;
+    margin-left: 6rem;
+}
+
+.eMail{
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-family: 'Varela', sans-serif;
+}
