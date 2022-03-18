@@ -1,0 +1,11 @@
+.mainContainer{
+    display: flex;
+}
+
+.titleText{
+    font-size: 2.5rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    color: white;
+    margin: 6rem;
+}

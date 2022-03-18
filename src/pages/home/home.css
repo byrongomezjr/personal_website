@@ -5,6 +5,7 @@ This is where the introduction goes. */
     flex-direction: column;
     display: flexbox;
     margin: 4rem;
+    background-color: rgb(20, 20, 20);
 }
 
 
@@ -21,13 +22,38 @@ This is the beginning of Home - BODY PARAGRAPH*/
     margin-top: 6rem;
     margin-left: 6rem;
     margin-bottom: 1rem;
+    color: rgb(125, 190, 210);
 }
 
 .introParagraph{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     margin-left: 6rem;
     margin-right: 6rem;
+    color: white;
+    line-height: 2em;
+}
+
+.introParagraphTwo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: white;
+    line-height: 2em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.introParagraphThree{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: white;
+    line-height: 2em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /*Personal Goals Title and its contents.*/
@@ -38,6 +64,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     margin-top: 2rem;
     margin-left: 6rem;
     margin-bottom: 1rem;
+    color: rgb(125, 190, 210);
 }
 
 .personalContact{
@@ -47,6 +74,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     margin-top: 2rem;
     margin-left: 6rem;
     margin-bottom: 1rem;
+    color: rgb(125, 190, 210);
 }
 
 /*E Mail Section*/
@@ -55,7 +83,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: 1.5rem;
     justify-content: center;
     align-items: center;
-    color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
     margin: 1rem;
     margin-left: 6rem;
 }
@@ -63,6 +91,6 @@ This is the beginning of Home - BODY PARAGRAPH*/
 .eMail{
     justify-content: center;
     align-items: center;
-    color: crimson;
+    color: burlywood;
     font-family: 'Varela', sans-serif;
 }

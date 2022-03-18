@@ -1,8 +1,9 @@
 /*Header customization*/
 
 .header{
-    margin-top: 2rem;
-    margin-left: 6rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    background-color: rgb(20, 20, 20);
 }
 
 .headerTitle{
@@ -14,6 +15,7 @@
     font-size: 2.5rem;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
+    color: white;
 }
 
 /*Photo Icon customization*/
