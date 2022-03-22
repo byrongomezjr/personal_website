@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
+    padding: 1;
 }
 
 /*TOP RIGHT AND LEFT HEADER*/
@@ -17,9 +18,12 @@
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .topIcons{
+    display: flex;
     font-size: 1.5rem;
     margin-right: 1rem;
     color: white;
@@ -49,10 +53,15 @@
 }
 
 .topListItem{
-    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
     font-size: 1.2rem;
+    list-style: none;
     font-weight: 300;
     cursor: pointer;
+    color: white;
 }
 
 /*TOP RIGHT HEADER FUNCTIONALITY*/
@@ -88,4 +97,8 @@
     margin-right: 1rem;
     padding: 0;
     cursor: pointer;
+}
+
+.button{
+    color: white;
 }
