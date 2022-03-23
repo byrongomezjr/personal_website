@@ -1,31 +1,24 @@
 /*Header customization*/
 
 .header{
-    margin-top: 4rem;
     background-color: rgb(20, 20, 20);
     display: flex;
     flex-direction: column;
-    margin-left: 6rem;
+    box-sizing: border-box;
 }
 
-.headerTitle{
-    display: flex;
-    flex-direction: column;
-}
-
-.headerTitleHello{
-    display: flex;
+.hello{
     font-size: 1.5rem;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
     color: white;
-    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 /*Photo Icon customization*/
 
 .photoIcon{
-    display: flex;
     flex-direction: column;
     margin-top: 2rem;
     margin-left: 4rem;

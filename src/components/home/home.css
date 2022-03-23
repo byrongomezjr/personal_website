@@ -5,21 +5,22 @@ This is where the introduction goes. */
     flex-direction: column;
     display: flex;
     background-color: rgb(20, 20, 20);
+    box-sizing: border-box;
 }
 
 
 /*First paragraph introduction goes here and everything else.
 This is the beginning of Home - BODY PARAGRAPH*/
 .intro{
-    display: flexbox;
+    flex-direction: column;
 }
 
 .introTitle{
     font-family: 'Oxygen', sans-serif;
     font-size: 1.3rem;
     font-weight: 400;
-    margin-top: 6rem;
-    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
     margin-bottom: 1rem;
     color: rgb(125, 190, 210);
 }
@@ -27,7 +28,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 .introParagraph{
     font-family: 'Montserrat', sans-serif;
     font-size: .80rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
     margin-right: 6rem;
     color: white;
     line-height: 2em;
@@ -36,7 +37,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 .introParagraphTwo{
     font-family: 'Montserrat', sans-serif;
     font-size: .80rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-right: 6rem;
     color: white;
     line-height: 2em;
@@ -47,7 +48,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 .introParagraphThree{
     font-family: 'Montserrat', sans-serif;
     font-size: .80rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-right: 6rem;
     color: white;
     line-height: 2em;
@@ -61,7 +62,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 2rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-bottom: 1rem;
     color: rgb(125, 190, 210);
 }
@@ -71,7 +72,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 2rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-bottom: 1rem;
     color: rgb(125, 190, 210);
 }
