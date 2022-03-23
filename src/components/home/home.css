@@ -3,8 +3,7 @@ This is where the introduction goes. */
 
 .home{
     flex-direction: column;
-    display: flexbox;
-    margin: 4rem;
+    display: flex;
     background-color: rgb(20, 20, 20);
 }
 
@@ -17,7 +16,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 
 .introTitle{
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     margin-top: 6rem;
     margin-left: 6rem;
@@ -27,7 +26,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 
 .introParagraph{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: .80rem;
     margin-left: 6rem;
     margin-right: 6rem;
     color: white;
@@ -36,7 +35,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 
 .introParagraphTwo{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: .80rem;
     margin-left: 6rem;
     margin-right: 6rem;
     color: white;
@@ -47,7 +46,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 
 .introParagraphThree{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: .80rem;
     margin-left: 6rem;
     margin-right: 6rem;
     color: white;
@@ -59,7 +58,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 /*Personal Goals Title and its contents.*/
 .personalGoalsTitle{
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     margin-top: 2rem;
     margin-left: 6rem;
@@ -69,7 +68,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 
 .personalContact{
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     margin-top: 2rem;
     margin-left: 6rem;
@@ -80,7 +79,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 /*E Mail Section*/
 
 .eMailIcon{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
@@ -93,4 +92,11 @@ This is the beginning of Home - BODY PARAGRAPH*/
     align-items: center;
     color: burlywood;
     font-family: 'Varela', sans-serif;
+    font-size: .80rem;
+}
+
+@media screen and (max-width: 480px){
+    .home{
+        flex-direction: column;
+    }
 }

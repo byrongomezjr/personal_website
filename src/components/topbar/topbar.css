@@ -1,13 +1,13 @@
 .top{
     width: 100%;
-    height: 75px;
+    height: 200px;
     background-color: rgb(20, 20, 20);
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 1;
+    padding: 0;
 }
 
 /*TOP RIGHT AND LEFT HEADER*/
@@ -18,14 +18,14 @@
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .topIcons{
     display: flex;
-    font-size: 1.5rem;
-    margin-right: 1rem;
+    font-size: 1.3rem;
+    margin: 0.5rem;
     color: white;
     cursor: pointer; /*The cursor will change to pointer, for aesthetics only*/
 }
@@ -38,30 +38,22 @@
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.topList{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-right: 1rem;
-    list-style: none; /*Get rid of bullet point*/
-    padding: 0;
-    margin: 0;
-    font-family: 'Varela Round', sans-serif;
-    color: white;
-}
 
 .topListItem{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 1rem;
-    font-size: 1.2rem;
+    margin: 1rem;
+    font-size: 1rem;
     list-style: none;
-    font-weight: 300;
+    font-weight: 400;
     cursor: pointer;
     color: white;
+    font-family: 'Varela Round', sans-serif;
 }
 
 /*TOP RIGHT HEADER FUNCTIONALITY*/
@@ -69,36 +61,19 @@
 .darkModeIcon{
     align-items: center;
     justify-content: center;
-    display: flex;
-    margin-left: 1rem;
-    font-size: 1.5rem;
+    margin-left: 0rem;
+    font-size: 1.3rem;
     cursor: pointer;
     color: white;
 }
 
-.topRightLine{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    list-style-type: none;
-    padding: 0;
-    font-size: 1rem;
-    color: white;
-}
-
-.topRightTwitchIcon{
-    font-size: 1.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin-right: 1rem;
-    padding: 0;
-    cursor: pointer;
-}
 
 .button{
     color: white;
+}
+
+@media screen and (max-width: 480px){
+    .top{
+        flex-direction: column;
+    }
 }

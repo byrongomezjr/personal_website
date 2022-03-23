@@ -3,15 +3,15 @@ import './header.css';
 export default function Header() {
   return (
     <div className="header">
-      <div className="headerTitle">
-        <span className="headerTitleHello">
+      <section className="headerTitle">
+        <section className="headerTitleHello">
           Hello, I'm Byron.
-        </span>
-        <div className="photoIcon">
-        <img style={{width: 100, height: 100, borderRadius: 100/2}} 
+        </section>
+    </section>
+    <section className="photoIcon">
+        <img style={{width: 200, height: 200, borderRadius: 200/2}} 
     src="https://avatars.githubusercontent.com/u/60487113?v=4" alt="" />
-    </div>
-    </div>
+    </section>
     </div>
   )
 }
