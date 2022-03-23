@@ -3,9 +3,9 @@ import './coding.css';
 export default function Coding() {
   return (
     <div className="mainContainer">
-    <p className="titleText">
+    <h1 className="titleText">
       Coming Soon...
-    </p>
+    </h1>
     </div>
   )
 }

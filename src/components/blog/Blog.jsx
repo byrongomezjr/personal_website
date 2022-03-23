@@ -3,9 +3,9 @@ import './blog.css';
 export default function Blog() {
   return (
     <div className="mainContainer">
-    <p className="titleText">
+    <h1 className="titleText">
       Coming Soon...
-    </p>
+    </h1>
     </div>
   )
 }
