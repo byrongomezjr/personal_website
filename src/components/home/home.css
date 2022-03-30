@@ -28,7 +28,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 .introParagraph{
     font-family: 'Montserrat', sans-serif;
     font-size: .80rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-right: 6rem;
     color: white;
     line-height: 2em;
@@ -91,7 +91,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
 .eMail{
     justify-content: center;
     align-items: center;
-    color: burlywood;
+    color: navajowhite;
     font-family: 'Varela', sans-serif;
     font-size: .80rem;
 }

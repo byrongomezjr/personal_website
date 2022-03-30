@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 2rem;
+    position: static; /* NOT STATIC */
+    display: flex;
+    width: auto;
+    bottom: 0;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.react {
+    color: navajowhite;
+}
