@@ -23,6 +23,7 @@
 
 .topIcons{
     display: flex;
+    text-decoration: none; /* get rid of icon highlight*/
     font-size: 1.3rem;
     margin: 0.5rem;
     color: white;
@@ -71,6 +72,7 @@
 
 .button{
     color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 480px){

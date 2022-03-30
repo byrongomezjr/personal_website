@@ -36,6 +36,7 @@ export default function Home() {
     </p>
     </div>
 
+
     <div className="personalGoalsTitle">Personal Commandments</div>
     <p className="introParagraphTwo">
     "Negativity is a choice."
@@ -55,7 +56,7 @@ export default function Home() {
     </p>
 
     <div className="personalContact">Get In Touch With Me...</div>
-    <p className="introParagraph">Shoot me an e-mail!
+    <p className="introParagraph">Shoot me an e-mail
     </p>
 
     <p>

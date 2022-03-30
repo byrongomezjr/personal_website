@@ -6,16 +6,16 @@ export default function TopBar () {
     <div className="top">
 
     <div className="topLeft">
-    <a href="https://www.github.com/byrongomezjr">
-    <i className="topIcons fa-brands fa-github"></i>
+    <a className="topIcons" href="https://www.github.com/byrongomezjr">
+    <i class="fa-brands fa-github"></i>
     </a>
 
-    <a href="https://www.twitter.com/byrongomezjr">
-    <i className="topIcons fa-brands fa-twitter"></i>
+    <a className="topIcons" href="https://www.twitter.com/byrongomezjr">
+    <i class="fa-brands fa-twitter"></i>
     </a>
 
-    <a href="https://www.instagram.com/byrongomezjr">
-    <i className="topIcons fa-brands fa-instagram"></i>
+    <a className="topIcons" href="https://www.instagram.com/byrongomezjr">
+    <i class="fa-brands fa-instagram"></i>
     </a>
     </div>
 
