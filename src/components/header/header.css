@@ -13,11 +13,11 @@
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .hello{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
     color: white;
@@ -30,7 +30,7 @@
 .photoIcon{
     flex-direction: column;
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 /* RESPONSIVE */

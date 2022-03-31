@@ -21,7 +21,7 @@
     flex: 3;
     display: flex;
     margin-top: 1rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     justify-content: flex-start;
 }
 
@@ -67,7 +67,7 @@
 
 .darkModeIcon{
     align-items: center;
-    margin-right: 5rem;
+    margin-right: 2rem;
     font-size: 1.3rem;
     cursor: pointer;
     color: white;
