@@ -1,11 +1,28 @@
-.mainContainer{
+.body{
     display: flex;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
-.titleText{
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-top: 4rem;
+}
+
+.text{
     font-size: 2rem;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
     color: white;
-    margin-left: 10rem;
+    margin-left: 4rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px){
+    .main{
+        flex-direction: column;
+    }
 }

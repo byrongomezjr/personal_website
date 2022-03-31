@@ -1,22 +1,44 @@
 .footer {
-    margin-top: 2rem;
-    position: static; /* NOT STATIC */
+    margin-top: 0rem;
+    position: sticky; /* STICKY for FOOTER */
     display: flex;
-    width: auto;
     bottom: 0;
     color: white;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.container {
+.main {
     display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
     flex-direction: column;
     box-sizing: border-box;
-    margin-left: 4rem;
-    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
 }
 
 .react {
     color: navajowhite;
+    display: flex;
+    justify-content: center;
+    margin-left: .3rem;
+}
+
+.powered {
+    margin-left: .3rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px){
+    .main{
+        flex-direction: column;
+    }
 }

@@ -8,6 +8,7 @@ export default function Home() {
     <Header/>
     <div className="home">
 
+    <div className="main">
 
     <div className="introTitle">Quick Introduction...</div>
     
@@ -65,6 +66,8 @@ export default function Home() {
     byrongomezjr@protonmail.com
     </a>
     </p>
+
+    </div>
 
     </div>
     </>

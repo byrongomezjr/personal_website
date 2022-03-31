@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="header">
 
-    <container className="mainContainer">
+    <container className="main">
           
           <section className="photoIcon">
           <h1 className="hello">Hello, I'm Byron.</h1>

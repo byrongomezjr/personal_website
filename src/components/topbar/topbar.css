@@ -1,14 +1,18 @@
 .top{
-    width: 100%;
     background-color: rgb(20, 20, 20);
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
+    justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
     padding-bottom: 1rem;
     padding-top: 0rem;
+}
+
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
 }
 
 /*TOP LEFT HEADER*/
@@ -17,7 +21,7 @@
     flex: 3;
     display: flex;
     margin-top: 1rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     justify-content: flex-start;
 }
 
@@ -75,8 +79,10 @@
     text-decoration: none;
 }
 
+/* RESPONSIVE */
+
 @media screen and (max-width: 480px){
-    .top{
+    .bar{
         flex-direction: column;
     }
 }

@@ -2,10 +2,18 @@
 This is where the introduction goes. */
 
 .home{
-    flex-direction: column;
     display: flex;
     background-color: rgb(20, 20, 20);
     box-sizing: border-box;
+    justify-content: center;
+}
+
+/* Main Container */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
 }
 
 
@@ -19,7 +27,6 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-family: 'Oxygen', sans-serif;
     font-size: 1.3rem;
     font-weight: 400;
-    margin-top: 2rem;
     margin-left: 4rem;
     margin-bottom: 1rem;
     color: rgb(125, 190, 210);
@@ -96,8 +103,10 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: .80rem;
 }
 
+/* RESPONSIVE */
+
 @media screen and (max-width: 480px){
-    .home{
+    .main{
         flex-direction: column;
     }
 }

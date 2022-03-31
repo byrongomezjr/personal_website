@@ -5,6 +5,8 @@ export default function TopBar () {
   return (
     <div className="top">
 
+    <div className="bar">
+
     <div className="topLeft">
     <a className="topIcons" href="https://www.github.com/byrongomezjr">
     <i class="fa-brands fa-github"></i>
@@ -26,14 +28,22 @@ export default function TopBar () {
     HOME
     </Link>
     </li>
-    <li className="topListItem">
-    <Link className="button" to="/blog">
-    BLOG
-    </Link>
-    </li>
+
     <li className="topListItem">
     <Link className="button" to="/coding">
     CODING
+    </Link>
+    </li>
+
+    <li className="topListItem">
+    <Link className="button" to="/books">
+    BOOKS
+    </Link>
+    </li>
+    
+    <li className="topListItem">
+    <Link className="button" to="/blog">
+    BLOG
     </Link>
     </li>
 
@@ -42,6 +52,10 @@ export default function TopBar () {
     <div className="topRight">
     <i className="darkModeIcon fa-solid fa-moon"></i>
     </div>
+
+    </div>
+
+    
 
     </div>
   );
