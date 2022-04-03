@@ -14,20 +14,20 @@ export default function TopBar () {
     <div className="bar">
 
     <div className="topLeft">
-    <i className="darkModeIcon fa-brands fa-github"></i>
-    <a className="topIcons" href="https://www.github.com/byrongomezjr">
+    <a href="https://www.github.com/byrongomezjr" className="topIcons">
+    <i className="fa-brands fa-github"></i>
     </a>
 
-    <i className="darkModeIcon fa-brands fa-linkedin"></i>
-    <a className="topIcons" href="https://www.linkedin.com/byrongomezjr">
+    <a href="https://www.twitter.com/byrongomezjr" className="topIcons">
+    <i className="fa-brands fa-twitter"></i>
     </a>
 
-    <i className="darkModeIcon fa-brands fa-twitter"></i>
-    <a className="topIcons" href="https://www.twitter.com/byrongomezjr">
+    <a href="https://www.instagram.com/byrongomezjr" className="topIcons">
+    <i className="fa-brands fa-instagram"></i>
     </a>
 
-    <i className="darkModeIcon fa-brands fa-instagram"></i>
-    <a className="topIcons" href="https://www.instagram.com/byrongomezjr">
+    <a href="https://www.linkedin.com/in/byrongomezjr" className="topIcons">
+    <i className="fa-brands fa-linkedin"></i>
     </a>
     </div>
 

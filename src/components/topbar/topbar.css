@@ -14,22 +14,27 @@
     width: 1200px;
 }
 
-/*TOP LEFT HEADER*/
+/*TOP LEFT TOPBAR SOCIAL ICONS*/
 
 .topLeft{
     flex: 3;
     display: flex;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     align-items: center;
     justify-content: flex-start;
 }
 
 .topIcons{
     display: flex;
-    text-decoration: none; /* get rid of icon highlight*/
+    text-decoration: none; /*get rid of icon highlight.*/
     cursor: pointer; /*The cursor will change to pointer, for aesthetics only*/
+    align-items: center;
+    font-size: 1.3rem;
+    margin-right: 1rem;
 }
+
+
 
 /*TOP CENTER HEADER*/
 
@@ -64,13 +69,13 @@
 .lightModeIcon {
     align-items: center;
     margin-right: .5rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     font-size: 1.3rem;
 }
 
 .darkModeIcon{
     align-items: center;
-    margin-right: 2rem;
+    margin-right: 1rem;
     margin-left: .5rem;
     font-size: 1.3rem;
 }
