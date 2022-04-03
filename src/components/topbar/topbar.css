@@ -1,5 +1,4 @@
 .top{
-    background-color: rgb(20, 20, 20);
     position: sticky;
     top: 0;
     display: flex;
@@ -21,16 +20,14 @@
     flex: 3;
     display: flex;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    align-items: center;
     justify-content: flex-start;
 }
 
 .topIcons{
     display: flex;
     text-decoration: none; /* get rid of icon highlight*/
-    font-size: 1.3rem;
-    margin: 0.8rem;
-    color: white;
     cursor: pointer; /*The cursor will change to pointer, for aesthetics only*/
 }
 
@@ -41,7 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
 
@@ -51,7 +48,6 @@
     font-size: 1rem;
     list-style: none;
     cursor: pointer;
-    color: white;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -65,17 +61,22 @@
     justify-content: flex-end;
 }
 
+.lightModeIcon {
+    align-items: center;
+    margin-right: .5rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
 .darkModeIcon{
     align-items: center;
     margin-right: 2rem;
+    margin-left: .5rem;
     font-size: 1.3rem;
-    cursor: pointer;
-    color: white;
 }
 
 
 .button{
-    color: white;
     text-decoration: none;
 }
 

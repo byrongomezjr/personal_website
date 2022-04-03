@@ -1,3 +1,5 @@
+import './index.css';
+
 import TopBar from './components/topbar/TopBar';
 import Home from './components/home/Home';
 import Coding from './components/coding/Coding';
@@ -11,8 +13,9 @@ import Footer from './components/footer/Footer';
 
 /* eslint-disable react/jsx-no-undef */
 function App() {
+
   return (
-    <div>
+    <div className="App">
     <TopBar />
     <Routes>
     <Route exact path="/" element={<Home />} />

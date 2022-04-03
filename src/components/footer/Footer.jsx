@@ -9,14 +9,14 @@ export default function Footer() {
     <div>
     <p className="copyright">&copy; 
     <a className="react">Byron Gomez Jr</a>
-    <p className="powered">
-    • Powered by
-    </p>
+    <a className="powered">
+    <a>• Powered By</a>
+    </a>
     <a href="https://reactjs.org/" className='react'>
     React JS</a>
-    <p>
+    <a>
     .
-    </p>
+    </a>
     </p>
     </div>
 

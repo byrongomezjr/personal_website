@@ -3,7 +3,6 @@
     position: sticky; /* STICKY for FOOTER */
     display: flex;
     bottom: 0;
-    color: white;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,17 +14,16 @@
     margin-bottom: 3rem;
     margin-left: 0rem;
     flex-direction: column;
-    box-sizing: border-box;
     justify-content: center;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .react {
-    color: navajowhite;
     display: flex;
     justify-content: center;
     margin-left: .3rem;
@@ -33,6 +31,8 @@
 
 .powered {
     margin-left: .3rem;
+    display: flex;
+    justify-content: center;
 }
 
 /* RESPONSIVE */

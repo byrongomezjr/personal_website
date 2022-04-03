@@ -3,7 +3,6 @@ This is where the introduction goes. */
 
 .home{
     display: flex;
-    background-color: rgb(20, 20, 20);
     box-sizing: border-box;
     justify-content: center;
 }
@@ -29,7 +28,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-weight: 400;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    color: rgb(125, 190, 210);
+    color: skyblue;
 }
 
 .introParagraph{
@@ -37,7 +36,6 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: .80rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    color: white;
     line-height: 2em;
 }
 
@@ -46,7 +44,6 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: .80rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    color: white;
     line-height: 2em;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -57,7 +54,6 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: .80rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    color: white;
     line-height: 2em;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -71,7 +67,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     margin-top: 2rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    color: rgb(125, 190, 210);
+    color: skyblue;
 }
 
 .personalContact{
@@ -81,7 +77,7 @@ This is the beginning of Home - BODY PARAGRAPH*/
     margin-top: 2rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    color: rgb(125, 190, 210);
+    color: skyblue;
 }
 
 /*E Mail Section*/
@@ -90,7 +86,6 @@ This is the beginning of Home - BODY PARAGRAPH*/
     font-size: 1.3rem;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
     margin: 1rem;
     margin-left: 6rem;
 }
@@ -98,7 +93,6 @@ This is the beginning of Home - BODY PARAGRAPH*/
 .eMail{
     justify-content: center;
     align-items: center;
-    color: navajowhite;
     font-family: 'Varela', sans-serif;
     font-size: .80rem;
 }
