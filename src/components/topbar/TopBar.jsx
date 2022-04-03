@@ -18,6 +18,10 @@ export default function TopBar () {
     <a className="topIcons" href="https://www.github.com/byrongomezjr">
     </a>
 
+    <i className="darkModeIcon fa-brands fa-linkedin"></i>
+    <a className="topIcons" href="https://www.linkedin.com/byrongomezjr">
+    </a>
+
     <i className="darkModeIcon fa-brands fa-twitter"></i>
     <a className="topIcons" href="https://www.twitter.com/byrongomezjr">
     </a>
