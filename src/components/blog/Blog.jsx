@@ -5,7 +5,7 @@ export default function Blog() {
     <div className="body">
 
     <div className="main">
-    <h1 className="text">
+    <h1 className="comingSoon">
       Coming Soon...
     </h1>
     </div>

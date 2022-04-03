@@ -8,15 +8,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
-.text{
+.comingSoon {
     font-size: 2rem;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
-    color: white;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 /* RESPONSIVE */
