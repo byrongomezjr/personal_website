@@ -30,7 +30,7 @@
     text-decoration: none; /*get rid of icon highlight.*/
     cursor: pointer; /*The cursor will change to pointer, for aesthetics only*/
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-right: 1rem;
 }
 
@@ -68,16 +68,16 @@
 
 .lightModeIcon {
     align-items: center;
-    margin-right: .5rem;
+    margin-right: .3rem;
     margin-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .darkModeIcon{
     align-items: center;
     margin-right: 1rem;
-    margin-left: .5rem;
-    font-size: 1.3rem;
+    margin-left: .2rem;
+    font-size: 1.4rem;
 }
 
 

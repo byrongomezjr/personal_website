@@ -14,8 +14,13 @@ export default function TopBar () {
     <div className="bar">
 
     <div className="topLeft">
+
     <a href="https://www.github.com/byrongomezjr" className="topIcons">
     <i className="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/byrongomezjr" className="topIcons">
+    <i className="fa-brands fa-linkedin"></i>
     </a>
 
     <a href="https://www.twitter.com/byrongomezjr" className="topIcons">
@@ -26,9 +31,6 @@ export default function TopBar () {
     <i className="fa-brands fa-instagram"></i>
     </a>
 
-    <a href="https://www.linkedin.com/in/byrongomezjr" className="topIcons">
-    <i className="fa-brands fa-linkedin"></i>
-    </a>
     </div>
 
     <div className="topCenter">

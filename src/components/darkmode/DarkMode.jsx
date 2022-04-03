@@ -43,8 +43,7 @@ const DarkMode = () => {
 
         <span className='slider round'></span>
       </label>
-      <span>
-      </span>
+      <span></span>
     </div>
   );
 };
