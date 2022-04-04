@@ -80,21 +80,41 @@ This is the beginning of Home - BODY PARAGRAPH*/
     color: skyblue;
 }
 
+.handEmoji {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-left: 3.5rem;
+
+}
+
+.gumroadIcon {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 0rem;
+    justify-content: flex-start;
+    margin-left: .5rem;
+}
+
 /*E Mail Section*/
 
 .eMailIcon{
     font-size: 1.3rem;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
-    margin-left: 4rem;
+    margin-left: 6rem;
+    margin-right: .5rem;
 }
 
 .eMail{
     justify-content: center;
     align-items: center;
     font-family: 'Varela', sans-serif;
-    font-size: .80rem;
+    font-size: .8rem;
 }
 
 /* RESPONSIVE */

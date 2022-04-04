@@ -56,6 +56,21 @@ export default function Home() {
     In the words of Elon Musk, he encourages everyone to be extremely tenacious but know the difference between really believing our own ideals and sticking to them versus pursuing an unrealistic dream that doesn't actually have merit. This is very important because I believe that it keeps ourselves grounded when pursuing anything in life.
     </p>
 
+    <div className="personalGoalsTitle">Support Me</div>
+    <p className="introParagraph">
+    Check out my Gumroad wallpapers!
+    </p>
+    <p className="introParagraph">
+    Feel free to grab my custom set of coding wallpapers designed for all iOS and Android devices.
+    </p>
+
+    <p className="handEmoji">👉🏼
+    <a className="gumroadIcon" href="https://www.gumroad.com/byrongomezjr">
+    <img src={require("../images/gumroadlogo.png")}/>
+    </a>
+    </p>
+
+
     <div className="personalContact">Get In Touch With Me...</div>
     <p className="introParagraph">Shoot me an e-mail.
     </p>
