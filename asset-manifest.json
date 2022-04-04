@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b3691c6.css",
-    "main.js": "/static/js/main.5c9652cb.js",
+    "main.css": "/static/css/main.2ac73c56.css",
+    "main.js": "/static/js/main.8a07b06f.js",
+    "static/media/gumroadlogo.png": "/static/media/gumroadlogo.7f0fd1588ea49b9118f1.png",
     "index.html": "/index.html",
-    "main.0b3691c6.css.map": "/static/css/main.0b3691c6.css.map",
-    "main.5c9652cb.js.map": "/static/js/main.5c9652cb.js.map"
+    "main.2ac73c56.css.map": "/static/css/main.2ac73c56.css.map",
+    "main.8a07b06f.js.map": "/static/js/main.8a07b06f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b3691c6.css",
-    "static/js/main.5c9652cb.js"
+    "static/css/main.2ac73c56.css",
+    "static/js/main.8a07b06f.js"
   ]
 }
