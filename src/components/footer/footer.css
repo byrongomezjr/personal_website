@@ -20,9 +20,9 @@
 .footerContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-left: 9rem;
+    justify-content: center;
     box-sizing: border-box;
+    font-size: .8rem;
 
 }
 
@@ -34,14 +34,14 @@
 
 .react {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: .3rem;
 }
 
 .powered {
     margin-left: .3rem;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
 /* RESPONSIVE */
