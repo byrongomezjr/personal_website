@@ -1,5 +1,5 @@
 .top{
-    position: sticky;
+    position: relative;
     top: 0;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
     flex: 3;
     display: flex;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     align-items: center;
     justify-content: flex-start;
 }
@@ -62,22 +62,16 @@
     flex: 3;
     display: flex;
     margin-top: 1rem;
+    margin-right: 1rem;
     align-items: center;
     justify-content: flex-end;
 }
 
-.lightModeIcon {
-    align-items: center;
-    margin-right: .3rem;
-    margin-left: 1rem;
-    font-size: 1.3rem;
-}
 
 .darkModeIcon{
     align-items: center;
-    margin-right: 1rem;
-    margin-left: .2rem;
     font-size: 1.3rem;
+    margin-right: 1rem;
 }
 
 

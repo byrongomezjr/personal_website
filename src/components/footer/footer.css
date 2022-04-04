@@ -1,6 +1,6 @@
 .footer {
     margin-top: 0rem;
-    position: sticky; /* STICKY for FOOTER */
+    position: relative; /* or STATIC */
     display: flex;
     bottom: 0;
     font-size: 14px;
@@ -11,15 +11,24 @@
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    margin-bottom: 3rem;
+    margin-bottom: .5rem;
     margin-left: 0rem;
     flex-direction: column;
     justify-content: center;
 }
 
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 9rem;
+    box-sizing: border-box;
+
+}
+
 .copyright {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     margin-bottom: 2rem;
 }
 

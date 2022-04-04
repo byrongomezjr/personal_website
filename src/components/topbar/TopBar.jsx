@@ -11,7 +11,7 @@ export default function TopBar () {
     
     <div className="top">
 
-    <div className="bar">
+    <header className="bar">
 
     <div className="topLeft">
 
@@ -63,12 +63,12 @@ export default function TopBar () {
     </div>
 
     <div className="topRight">
-    <i className="lightModeIcon fa-solid fa-sun"></i>
+
+    <i className="darkModeIcon fa-solid fa-lightbulb"></i>
     <DarkMode />
-    <i className="darkModeIcon fa-solid fa-moon"></i>
     </div>
 
-    </div>
+    </header>
 
     </div>
     </>

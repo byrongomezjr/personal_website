@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     <footer className="footer">
 
-    <section className="main">
+    <div className="main">
 
-    <div>
+    <section className="footerContainer">
     <p className="copyright">&copy; 
     <a className="react">Byron Gomez Jr</a>
     <a className="powered">
@@ -18,9 +18,9 @@ export default function Footer() {
     .
     </a>
     </p>
-    </div>
-
     </section>
+
+    </div>
 
     </footer>
   )
