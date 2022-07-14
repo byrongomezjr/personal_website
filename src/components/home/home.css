@@ -18,104 +18,75 @@ This is where the introduction goes. */
 
 /*First paragraph introduction goes here and everything else.
 This is the beginning of Home - BODY PARAGRAPH*/
-.intro{
+
+.section{
     flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
 }
 
-.introTitle{
+.aboutMe{
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
     margin-bottom: 1rem;
+    margin-left: 4rem;
     color: skyblue;
 }
 
-.introParagraph{
+.paragraph{
     font-family: 'Montserrat', sans-serif;
-    font-size: .80rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     line-height: 2em;
-}
-
-.introParagraphTwo{
-    font-family: 'Montserrat', sans-serif;
-    font-size: .80rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    line-height: 2em;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.introParagraphThree{
-    font-family: 'Montserrat', sans-serif;
-    font-size: .80rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    line-height: 2em;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
 }
 
 /*Personal Goals Title and its contents.*/
-.personalGoalsTitle{
+
+.title {
     font-family: 'Oxygen', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 500;
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: skyblue;
 }
 
-.personalContact{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    color: skyblue;
+/* Icon customization */
+
+.icons {
+    font-size: 3.5rem;
+    color: lightgray;
+    margin-bottom: 4rem;
 }
 
-.handEmoji {
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    font-size: 1.3rem;
-    text-decoration: none;
+.fa-brands {
+    padding-left: 1rem;
+}
+
+
+/*Bottom section*/
+.bottomSection {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.contactMe {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
     margin-left: 4rem;
-
+    color: skyblue;
 }
 
-.gumroadIcon {
-    display: flex;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    margin-top: 0rem;
-    justify-content: flex-start;
-    margin-left: .5rem;
-}
+
 
 /*E Mail Section*/
 
-.eMailIcon{
-    font-size: 1.3rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 7rem;
-    margin-right: .5rem;
-}
 
-.eMail{
-    justify-content: center;
-    align-items: center;
-    font-family: 'Varela', sans-serif;
-    font-size: .8rem;
-}
 
 /* RESPONSIVE */
 

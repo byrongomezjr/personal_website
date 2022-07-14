@@ -6,12 +6,23 @@ export default function Header() {
 
     <container className="main">
           
-          <section className="photoIcon">
+          <section>
           <h1 className="hello">Hello, I'm Byron.</h1>
-          
-          <img style={{width: 150, height: 150, borderRadius: 150/2}} 
+          <section>
+          <div className="bio">
+          <a className="developer">Software Developer based in New Jersey</a>
+          </div>
+
+          <div className="avatar">
+          <img style={{width: 320, height: 320, borderRadius: 320/2}} 
           src="https://avatars.githubusercontent.com/u/60487113?v=4" alt="" />
+          </div>
+
           </section>
+          
+          
+          </section>
+
     </container>
     
     </div>

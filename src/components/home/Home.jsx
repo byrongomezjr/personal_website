@@ -10,77 +10,52 @@ export default function Home() {
 
     <div className="main">
 
-    <div className="introTitle">Quick Introduction...</div>
     
 
-    <div className="intro">
+    <div className="section">
+
+    <h1 className="aboutMe">About Me</h1>
     
-    <p className="introParagraph">
-    👋🏼 Hi there, I am a Computer Science student living in New Jersey,
+    <p className="paragraph">
+    👋🏼 Hi there, I am a software developer with interests that range from web development to machine learning.
     </p>
 
-    <p className="introParagraph">
-    🏬 Rutgers University - Newark,
-
+    <p className="paragraph">
+    💻 Love creating responsive applications by implementing clean design and experimenting with trendy technologies.
     </p>
 
-    <p className="introParagraph">
-    🏢 Employed at Vitalant.
+    <p className="paragraph">
+    🎓 Currently attending Rutgers, The State University of New Jersey - Newark, and usually spend most of my free time programming with friends.
     </p>
 
-    <p className="introParagraph">
-    💻 Currently learning React and JavaScript;
-    </p>
-
-    <p className="introParagraph">
-    🧍🏽🧍🏽‍♂️ Looking to collaborate with other Front-End Developers and Software Engineers.
-    </p>
     </div>
 
 
-    <div className="personalGoalsTitle">Personal Commandments</div>
-    <p className="introParagraphTwo">
-    "Negativity is a choice."
-    </p>
-    <p className="introParagraph">
-      I've always had a specific view toward life and believe that negative thinking and weighted thoughts keep everyone I've come across in the same spot. I look at it as a clock, this might be sort of weird but it is my personal approach because I believe that a clock only moves at 180 degrees, going in circles and never moving forward, like an illusion; but time still passes by.
-    </p>
-    <p className="introParagraph">
-      Now, if everyone was to change the way they think and see things from a different perspective, they would be able to have more freedom in their way of thinking and be more proactive. Taking the initiative in their own lives and move forward, take different approaches that will get rid of negative thoughts; only then everyone would witness the meaning of life and their careers would also become meaningful. A meaningful life, only moving forward and able to enjoy freedom and time, but most importantly the way they see and perceive their own selves.
-    </p>
+    <div className="title">Skills</div>
 
-    <p className="introParagraphThree">
-    "Natural human tendency is wishful thinking."
-    </p>
-    <p className="introParagraph">
-    In the words of Elon Musk, he encourages everyone to be extremely tenacious but know the difference between really believing our own ideals and sticking to them versus pursuing an unrealistic dream that doesn't actually have merit. This is very important because I believe that it keeps ourselves grounded when pursuing anything in life.
-    </p>
+    <div className="icons">
+    <i className="fa-brands fa-html5"></i>
+    <i className="fa-brands fa-css3-alt"></i>
+    <i className="fa-brands fa-js-square"></i>
+    <i className="fa-brands fa-react"></i>
+    <i className="fa-brands fa-git-square"></i>
+    <i className="fa-brands fa-python"></i>
+    <i className="fa-brands fa-java"></i>
 
-    <div className="personalGoalsTitle">Support Me</div>
-    <p className="introParagraph">
-    Check out my Gumroad wallpapers!
-    </p>
-    <p className="introParagraph">
-    Feel free to grab my custom set of coding wallpapers designed for all iOS and Android devices.
-    </p>
+    </div>
 
-    <p className="handEmoji">👉🏼
-    <a className="gumroadIcon" href="https://www.gumroad.com/byrongomezjr">
-    <img src={require("../images/gumroadlogo.png")}/>
-    </a>
-    </p>
+    <div className="bottomSection">
+    
+    <div className="contactMe">Contact Me</div>
 
+    <subheading className="sub">Get In Touch...</subheading>
 
-    <div className="personalContact">Get In Touch With Me...</div>
-    <p className="introParagraph">Shoot me an e-mail.
-    </p>
+    <div className="left"></div>
+    <div className="right"></div>
+    
 
-    <p>
-    <i className="eMailIcon fa-solid fa-envelope"></i>
-    <a className="eMail" href="mailto:byrongomezjr@protonmail.com">
-    byrongomezjr@protonmail.com
-    </a>
-    </p>
+    </div>
+
 
     </div>
 

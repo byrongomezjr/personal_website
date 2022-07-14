@@ -1,6 +1,7 @@
-import './books.css';
+import './projects.css';
 
-export default function Blog() {
+
+export default function Projects() {
   return (
     <div className="body">
 
@@ -9,7 +10,6 @@ export default function Blog() {
       Coming Soon...
     </h1>
     </div>
-
     </div>
   )
 }

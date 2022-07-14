@@ -41,22 +41,11 @@ export default function TopBar () {
     </Link>
     </li>
 
+    <a>|</a>
 
     <li className="topListItem">
     <Link className="button" to="/coding">
-    CODING
-    </Link>
-    </li>
-
-    <li className="topListItem">
-    <Link className="button" to="/books">
-    BOOKS
-    </Link>
-    </li>
-    
-    <li className="topListItem">
-    <Link className="button" to="/blog">
-    BLOG
+    PROJECTS
     </Link>
     </li>
 

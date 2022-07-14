@@ -2,9 +2,7 @@ import './index.css';
 
 import TopBar from './components/topbar/TopBar';
 import Home from './components/home/Home';
-import Coding from './components/coding/Coding';
-import Blog from './components/blog/Blog';
-import Books from './components/books/Books';
+import Projects from './components/projects/Projects';
 
 import { Route, Routes } from 'react-router-dom';//new react router dom library, updated for version 6.2.2
 
@@ -19,9 +17,7 @@ function App() {
     <TopBar />
     <Routes>
     <Route exact path="/" element={<Home />} />
-    <Route exact path="/coding" element={<Coding />} />
-    <Route exact path="/blog" element={<Blog />} />
-    <Route exact path="/books" element={<Books />} />
+    <Route exact path="/projects" element={<Projects />} />
     </Routes>
     <Footer />
     </div>
