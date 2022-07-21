@@ -24,7 +24,7 @@ export default function Home() {
     💻 Love implementing clean design and building responsive applications.
     </p>
 
-    <p className="paragraph">
+    <p className="paragraph2">
     🎓 Currently attending Rutgers, The State University of New Jersey - Newark, and usually spend most of my free time programming with friends.
     </p>
     </container>

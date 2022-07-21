@@ -38,10 +38,17 @@ This is where the introduction goes. */
     padding: .5rem;
 }
 
-.paragraph{
-    align-items: flex-start;
+.paragraph {
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+}
+
+.paragraph2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 2.5;
 }
 
 /*Personal Goals Title and its contents.*/
