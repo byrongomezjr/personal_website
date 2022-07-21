@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <>
     <Header/>
-    <div className="header">
 
-    <div className="main">
+    <div className="wrapper">
 
+    <header className="header">
 
-    <section className="main-body-container">
+    <container className="about-me-container">
     <h1 className="aboutMe">About Me</h1>
     
-    <section className="body-container">
+    <container className="body-container">
     <p className="paragraph">
     👋🏼 My interests range from mobile app and web development to machine learning.
     </p>
@@ -27,18 +27,17 @@ export default function Home() {
     <p className="paragraph">
     🎓 Currently attending Rutgers, The State University of New Jersey - Newark, and usually spend most of my free time programming with friends.
     </p>
-    </section>
-    </section>
+    </container>
+    </container>
 
 
-    <section className="secondary-container">
+    <container className="skills-container">
     <h1 className="skills">Skills</h1>
 
-    <section className="icons">
+    <container className="icons-container">
     <i className="devicons devicons-html5"></i>
     <i className="devicons devicons-css3"></i>
     <i className="devicons devicons-javascript"></i>
-    <i className="devicons devicons-react"></i>
     <i className="devicons devicons-nodejs"></i>
     <i className="devicons devicons-git"></i>
     <i className="devicons devicons-github_badge"></i>
@@ -46,23 +45,22 @@ export default function Home() {
     <i className="devicons devicons-python"></i>
     <i className="devicons devicons-django"></i>
     <i className="devicons devicons-java"></i>
+    </container>
     
+    </container>
 
-    </section>
-    </section>
-
-    <section className="bottom-container">
+    <container className="bottom-container">
     
     <h1 className="contactMe">Contact Me</h1>
 
-    <subheading className="sub">Get In Touch...</subheading>
+    <container className="sub">Get In Touch...</container>
 
     <div className="left"></div>
     <div className="right"></div>
-    </section>
+    </container>
+    </header>
 
 
-    </div>
     </div>
 
     </>

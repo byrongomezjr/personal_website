@@ -1,18 +1,16 @@
-.footer {
-    margin-top: 0rem;
+.top {
+    margin-top: 2rem;
     position: relative; /* or STATIC */
     display: flex;
     bottom: 0;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.main {
+.footer {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     flex-direction: column;
 }
 
@@ -20,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    font-size: .8rem;
+    font-size: 1rem;
 
 }
 

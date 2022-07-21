@@ -11,9 +11,9 @@ export default function TopBar () {
   return (
     <>
     
-    <div className="topbar">
+    <div className="top">
 
-    <header className="bar">
+    <header className="topbar">
 
     <div className="topLeft">
 

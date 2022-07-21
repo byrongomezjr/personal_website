@@ -4,9 +4,9 @@ import './footer.css';
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="top">
 
-    <div className="main">
+    <div className="footer">
 
     <section className="footerContainer">
     <p className="copyright">&copy; 

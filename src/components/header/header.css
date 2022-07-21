@@ -1,18 +1,25 @@
 /*Header customization*/
-
-.header{
+/* MAIN HEADER */
+.top {
     display: flex;
     position: relative;
-    align-items: center;
-    justify-content: center; /* IMPORTANT */
+    justify-content: center;
+
 }
 
-/* MAIN HEADER */
-
-.main-container {
-    display: block;
-    margin-top: 1rem;
+.header {
+    display: flex;
+    flex-direction: column;
     max-width: 1000px;
+
+}
+
+/*SECTIONS*/
+
+.container {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 /*Introduction*/
