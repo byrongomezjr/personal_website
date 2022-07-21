@@ -2,37 +2,45 @@
 
 .header{
     display: flex;
-    box-sizing: border-box;
+    position: relative;
     align-items: center;
     justify-content: center; /* IMPORTANT */
 }
 
-/* MAIN CONTAINER */
+/* MAIN HEADER */
 
-.main {
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-top: 2rem;
-    align-items: center;
-    justify-content: center;
+.main-container {
+    display: block;
+    margin-top: 1rem;
+    max-width: 1000px;
 }
 
-.hello{
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 600;
+/*Introduction*/
+
+.hi {
+    font-family: 'Lato';
+    text-align: start;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 1rem;
+    color: lightslategray;
+}
+
+.name {
+    text-align: start;
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    margin: 1rem;
     margin-bottom: 1rem;
 }
 
-.bio {
-    text-align: center;
-}
-
 .developer {
-    font-size: 1.2rem;
-    font-family: 'Oxygen';
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 1rem;
+    font-weight: 300;
 }
 
 /*Photo Icon customization*/
@@ -41,6 +49,7 @@
     display: flex;
     justify-content: center;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 

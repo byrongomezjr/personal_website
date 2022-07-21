@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 
 import DarkMode from '../darkmode/DarkMode';
 
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 
 export default function TopBar () {
 
   return (
     <>
     
-    <div className="top">
+    <div className="topbar">
 
     <header className="bar">
 
@@ -41,7 +43,7 @@ export default function TopBar () {
     </Link>
     </li>
 
-    <a>|</a>
+    <a className="separator">|</a>
 
     <li className="topListItem">
     <Link className="button" to="/coding">

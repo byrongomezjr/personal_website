@@ -1,4 +1,4 @@
-.top{
+.topbar {
     position: relative;
     top: 0;
     display: flex;
@@ -11,7 +11,8 @@
 .bar {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 1000px;
+    margin-top: 1rem;
 }
 
 /*TOP LEFT TOPBAR SOCIAL ICONS*/
@@ -19,8 +20,6 @@
 .topLeft{
     flex: 3;
     display: flex;
-    margin-top: 1rem;
-    margin-left: 1.5rem;
     align-items: center;
     justify-content: flex-start;
 }
@@ -29,9 +28,9 @@
     display: flex;
     text-decoration: none; /*get rid of icon highlight.*/
     cursor: pointer; /*The cursor will change to pointer, for aesthetics only*/
-    align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -42,18 +41,23 @@
     flex: 6;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
+    justify-content: flex-end;
 }
 
-
-.topListItem{
-    justify-content: center;
-    margin: 1.5rem;
+/* HOME and PROJECTS*/
+.topListItem {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 1rem;
     list-style: none;
     cursor: pointer;
     font-family: 'Varela Round', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.separator {
+    margin-bottom: 1rem;
 }
 
 /*TOP RIGHT HEADER FUNCTIONALITY*/
@@ -61,8 +65,6 @@
 .topRight{
     flex: 3;
     display: flex;
-    margin-top: 1rem;
-    margin-right: 1rem;
     align-items: center;
     justify-content: flex-end;
 }
@@ -72,6 +74,7 @@
     align-items: center;
     font-size: 1.3rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 
