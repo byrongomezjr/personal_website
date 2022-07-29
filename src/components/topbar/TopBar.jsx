@@ -55,7 +55,7 @@ export default function TopBar () {
 
     <li className="topListItem">
     <Link className="button" to="/contact">
-    HIRE ME
+    CONTACT
     </Link>
     </li>
 
