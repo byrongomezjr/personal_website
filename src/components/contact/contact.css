@@ -1,21 +1,32 @@
-.mainContainer {
+.mainContactContainer {
     display: flex;
     position: relative;
     justify-content: center;
-    padding-top: 6rem;
+    align-items: center;
 }
 
-.items {
+.contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 6rem;
     justify-content: center;
-    text-align: center;
 }
 
 .subTitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Montserrat";
 }
 
 .title {
     font-size: 3rem;
     font-family: "Poppins", sans-serif;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px){
+    .bar{
+        flex-direction: column;
+    }
 }

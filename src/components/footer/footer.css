@@ -1,23 +1,17 @@
-.top {
-    margin-top: 2rem;
-    position: relative; /* or STATIC */
-    display: flex;
-    bottom: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
-}
-
 .footerContainer {
     display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainFooterContainer {
+    display: flex;
     flex-direction: column;
-    padding: 1rem;
+    max-width: 1024px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .wrapper {

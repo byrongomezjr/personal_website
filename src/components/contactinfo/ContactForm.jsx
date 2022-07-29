@@ -24,9 +24,11 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
+    <div className="mainContactInfoContainer">
+    <div className="contactInfoContainer">
 
-    <div className="mainContactContainer">
     <form className="mainWrapper" onSubmit={handleSubmit}>
+
       <div className="nameWrapper">
         <label className="nameLabel" htmlFor="name">Name:</label>
         <input className="nameInput" type="text" id="name" required />
@@ -42,8 +44,10 @@ const ContactForm = () => {
       <div className="buttonWrapper">
       <button className="customButton" type="submit">{status}</button>
       </div>
+      
     </form>
 
+    </div>
     </div>
   );
 };

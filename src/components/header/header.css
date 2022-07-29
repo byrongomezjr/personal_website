@@ -1,22 +1,25 @@
 /*Header customization*/
 /* MAIN HEADER */
-.top {
+.mainHeaderContainer {
     display: flex;
     position: relative;
     justify-content: center;
+    align-items: center;
 
 }
 
-.header {
+.headerContainer {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    max-width: 1000px;
+    margin-top: 3rem;
+    width: 1024px;
 
 }
 
 /*SECTIONS*/
 
-.container {
+.bioContainer {
     display: block;
     align-items: flex-start;
     justify-content: flex-start;
@@ -52,7 +55,7 @@
 
 /*Photo Icon customization*/
 
-.avatar{
+.avatarContainer{
     display: flex;
     justify-content: center;
     margin-top: 4rem;

@@ -8,14 +8,14 @@ export default function Home() {
     <>
     <Header/>
 
-    <div className="wrapper">
+    <div className="aboutMeWrapper">
 
-    <header className="header">
+    <header className="aboutMeHeaderContainer">
 
-    <container className="about-me-container">
+    <container className="aboutMeContainer">
     <h1 className="aboutMe">About Me</h1>
     
-    <container className="body-container">
+    <container className="bodyParagraph">
     <p className="paragraph">
     👋🏼 My interests range from mobile app and web development to machine learning.
     </p>
@@ -31,10 +31,10 @@ export default function Home() {
     </container>
 
 
-    <container className="skills-container">
+    <container className="skillsContainer">
     <h1 className="skills">Skills</h1>
 
-    <container className="icons-container">
+    <container className="iconsContainer">
     <i className="fa-brands fa-html5"></i>
     <i className="fa-brands fa-css3"></i>
     <i className="fa-brands fa-js"></i>

@@ -4,11 +4,11 @@ import './footer.css';
 
 export default function Footer() {
   return (
-    <footer className="top">
+    <footer className="footerContainer">
+
+    <div className="mainFooterContainer">
 
     <div className="footer">
-
-    <div className="footerContainer">
     <a className="wrapper">&copy; 
     <a className="footerName">Byron Gomez Jr</a>
     <a className="footerSeparator">•</a>

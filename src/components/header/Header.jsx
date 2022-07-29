@@ -3,10 +3,11 @@ import './header.css';
 
 export default function Header() {
   return (
-    <div className="top">
-    <header className="header">
+    <div className="mainHeaderContainer">
+
+    <header className="headerContainer">
     
-    <container className="container">
+    <container className="bioContainer">
     <h1 className="hi">Hi, my name is</h1>
     <h2 className="name">Byron Gomez.</h2>
     <h3 className="developer">I'm a Software Developer</h3>
@@ -15,7 +16,7 @@ export default function Header() {
     </container>
 
 
-          <container className="avatar">
+          <container className="avatarContainer">
           <img style={{width: 320, height: 320, borderRadius: 320/2}} 
           src="https://avatars.githubusercontent.com/u/60487113?v=4" alt="" />
           </container>

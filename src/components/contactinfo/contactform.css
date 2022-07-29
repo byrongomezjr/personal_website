@@ -1,16 +1,21 @@
-.mainContactContainer {
+.mainContactInfoContainer {
     display: flex;
     position: relative;
     justify-content: center;
+    align-items: center;
+}
 
+.contactInfoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2rem;
 }
 
 .mainWrapper {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin-bottom: 6rem;
-
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 /*NAME INPUT*/
@@ -91,4 +96,14 @@
     border-radius: 50px;
     width: 10rem;
     height: 2.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px){
+    .bar{
+        flex-direction: column;
+    }
 }

@@ -7,17 +7,13 @@ import ContactForm from '../contactinfo/ContactForm';
 export default function Contact() {
   return (
 
-    <div className="mainContainer">
+    <div className="mainContactContainer">
 
-    <section>
+    <section className="contactContainer">
     <a className="subTitle">Get In Touch...</a>
-    <h1 className="title">CONTACT ME</h1>
+    <a className="title">CONTACT ME</a>
 
-    <div className="contactSectionWrapper">
-    <div className="secondContainer">
       <ContactForm />
-    </div>
-    </div>
     </section>
 
     </div>

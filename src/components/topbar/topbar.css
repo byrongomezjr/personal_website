@@ -1,18 +1,19 @@
-.top {
-    position: relative;
-    top: 0;
+.mainContainer {
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     font-family: 'Josefin Sans', sans-serif;
-    padding-bottom: 1rem;
-    padding-top: 0rem;
 }
 
-.topbar {
-    display: flex;
+.topBarContainer {
     flex-wrap: wrap;
-    width: 1000px;
+    display: flex;
+    flex-direction: row;
     margin-top: 1rem;
+    width: 1024px;
 }
 
 /*TOP LEFT TOPBAR SOCIAL ICONS*/
