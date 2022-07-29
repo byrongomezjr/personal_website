@@ -2,6 +2,6 @@ import React, { useState } from 'react';
 
 export default function ContactForm() {
   return (
-    <div>ContactForm</div>
+    <div>Coming Soon...</div>
   )
 }
