@@ -17,11 +17,11 @@ export default function Home() {
     
     <container className="bodyParagraph">
     <p className="paragraph">
-    👋🏼 My interests range from mobile app and web development to machine learning.
+    👋🏼  My interests range from mobile app and web development to machine learning.
     </p>
 
     <p className="paragraph">
-    💻 Love implementing clean design and building responsive applications.
+    💻 I enjoy implementing clean design and building responsive applications.
     </p>
 
     <p className="paragraph2">
