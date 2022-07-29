@@ -11,7 +11,7 @@ export default function Header() {
     <h2 className="name">Byron Gomez.</h2>
     <h3 className="developer">I'm a Software Developer</h3>
     <h3 className="developer">specializing in exceptional digital experiences,</h3>
-    <h3 className="developer">I build accessible, human-centered products that leave a great impression and love creating applications that live on the internet.</h3>
+    <h3 className="developer">I build accessible, human-centered products that leave a great impression, prioritizing responsiveness and pixel-perfect user experiences.</h3>
     </container>
 
 

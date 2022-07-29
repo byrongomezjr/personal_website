@@ -70,31 +70,17 @@ This is where the introduction goes. */
 /* ICON CONTAINER */
 
 .icons-container {
-    position: relative;
     display: block;
     padding: 1rem;
     text-align: center;
-    max-width: 1000px;
-    font-size: 2rem;
-}
-
-/*ICONS*/
-
-
-/*Bottom section*/
-.bottom-container {
-    display: block;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    max-width: 1000px;
+    font-size: 2.5rem;
+    color: aquamarine;
 }
 
-.contactMe {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: skyblue;
+.fa-brands {
+    padding-left: 1rem;
 }
 
 .sub {

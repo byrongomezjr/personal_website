@@ -35,28 +35,20 @@ export default function Home() {
     <h1 className="skills">Skills</h1>
 
     <container className="icons-container">
-    <i className="devicons devicons-html5"></i>
-    <i className="devicons devicons-css3"></i>
-    <i className="devicons devicons-javascript"></i>
-    <i className="devicons devicons-nodejs"></i>
-    <i className="devicons devicons-git"></i>
-    <i className="devicons devicons-github_badge"></i>
-    <i className="devicons devicons-npm"></i>
-    <i className="devicons devicons-python"></i>
-    <i className="devicons devicons-django"></i>
-    <i className="devicons devicons-java"></i>
+    <i className="fa-brands fa-html5"></i>
+    <i className="fa-brands fa-css3"></i>
+    <i className="fa-brands fa-js"></i>
+    <i className="fa-brands fa-react"></i>
+    <i className="fa-brands fa-node"></i>
+    <i className="fa-brands fa-git-alt"></i>
+    <i className="fa-brands fa-github"></i>
+    <i className="fa-brands fa-npm"></i>
+    <i className="fa-brands fa-python"></i>
+    <i className="fa-brands fa-java"></i>
+    <i className="fa-brands fa-vuejs"></i>
+    <i className="fa-brands fa-aws"></i>
     </container>
     
-    </container>
-
-    <container className="bottom-container">
-    
-    <h1 className="contactMe">Contact Me</h1>
-
-    <container className="sub">Get In Touch...</container>
-
-    <div className="left"></div>
-    <div className="right"></div>
     </container>
     </header>
 

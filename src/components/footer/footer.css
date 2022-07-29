@@ -9,34 +9,39 @@
 
 .footer {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-    flex-direction: column;
 }
 
 .footerContainer {
     display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.wrapper {
+    font-family: "Lato";
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerName {
     font-size: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 
 }
 
-.copyright {
-    display: flex;
-    margin-bottom: 2rem;
-}
-
-.react {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: .3rem;
+.footerSeparator {
+    margin-right: .5rem;
 }
 
 .powered {
-    margin-left: .3rem;
-    display: flex;
-    justify-content:flex-start;
+    font-size: 1rem;
+    font-family: "Lato";
+    margin-right: .5rem;
 }
 
 /* RESPONSIVE */

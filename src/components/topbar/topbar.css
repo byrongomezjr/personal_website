@@ -28,8 +28,7 @@
     display: flex;
     text-decoration: none; /*get rid of icon highlight.*/
     cursor: pointer; /*The cursor will change to pointer, for aesthetics only*/
-    font-size: 1.2rem;
-    margin-right: 1rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 

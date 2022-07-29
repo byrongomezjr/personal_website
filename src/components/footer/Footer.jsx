@@ -8,19 +8,20 @@ export default function Footer() {
 
     <div className="footer">
 
-    <section className="footerContainer">
-    <p className="copyright">&copy; 
-    <a className="react">Byron Gomez Jr</a>
+    <div className="footerContainer">
+    <a className="wrapper">&copy; 
+    <a className="footerName">Byron Gomez Jr</a>
+    <a className="footerSeparator">•</a>
     <a className="powered">
-    <a>• Powered By</a>
+    <a>Powered By</a>
     </a>
     <a href="https://reactjs.org/" className='react'>
     React JS</a>
     <a>
     .
     </a>
-    </p>
-    </section>
+    </a>
+    </div>
 
     </div>
 
