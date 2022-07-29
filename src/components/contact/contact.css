@@ -1,0 +1,21 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.items {
+    justify-content: center;
+    text-align: center;
+}
+
+.subTitle {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+}
+
+.title {
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+}

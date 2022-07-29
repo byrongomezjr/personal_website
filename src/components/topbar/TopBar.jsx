@@ -46,8 +46,16 @@ export default function TopBar () {
     <a className="separator">|</a>
 
     <li className="topListItem">
-    <Link className="button" to="/coding">
+    <Link className="button" to="/projects">
     PROJECTS
+    </Link>
+    </li>
+
+    <a className="separator">|</a>
+
+    <li className="topListItem">
+    <Link className="button" to="/contact">
+    HIRE ME
     </Link>
     </li>
 
@@ -57,6 +65,7 @@ export default function TopBar () {
 
     <i className="darkModeIcon fa-solid fa-lightbulb"></i>
     <DarkMode />
+
     </div>
 
     </header>
