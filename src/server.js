@@ -14,8 +14,8 @@ const contactEmail = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
     auth: {
-  user: "byrongomezjr@gmail.com",
-  pass: "cfvjogsyndftiawm"
+  user: "",
+  pass: ""
     },
   });
   
